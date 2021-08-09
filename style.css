@@ -1,3 +1,8 @@
+body{
+    background: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
 .navbar{
     position: absolute;
 width: 1440px;
@@ -31,8 +36,8 @@ border-radius: 33px;
 .content{
     position: absolute;
     top: 178px;
-
-    font-family: 'Poppins', sans-serif;
+   
+    justify-content: space-between;
 }
 .content.left{
     width:50%;
@@ -47,9 +52,54 @@ color: #FD511A;
 .content .left h1{
     font-style: normal;
 font-weight: bold;
+width: 405px;
 font-size: 48px;
 line-height: 70px;
 color: #000000;
 
 
+}
+.content .left h1 span{
+    color: #21B573;
+
+
+}
+.content .left p{
+    width: 403px;
+}
+.content .right img{
+    width:70%;
+}
+.book{
+top: 200px;
+}
+.col .card{
+width: 270px;
+height: 270px;
+left: 75px;
+top: 618px;
+background: #F8FFFB;
+border-radius: 10px;
+}
+.col .card img{
+    position: absolute;
+    width: 66px;
+    height: 85px;
+   left:100px;
+   top:35px;
+    
+}
+.col .card-title{
+    position: absolute;
+    top:150px;
+left:70px;    
+}
+.col .card-text{
+    position: absolute;
+    top:180px;
+left:70px;
+}
+.course{
+    position: absolute;
+    top:500px;
 }
