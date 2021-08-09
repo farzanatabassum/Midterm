@@ -1,1 +1,28 @@
-.na
+.navbar{
+    position: absolute;
+width: 1440px;
+height: 576px;
+left: 0px;
+top: 0px;
+
+background: #F0FFF0;
+
+}
+.navbar-brand img{
+     position: absolute;
+    width: 198.07px;
+height: 59px;
+left: 212px;
+top: 10px;
+
+}
+.navbar ul {
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 5px;
+}
+.navbar ul .nav-item a{
+    position: absolute;
+left: 825px;
+}
