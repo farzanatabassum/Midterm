@@ -17,12 +17,39 @@ top: 10px;
 
 }
 .navbar ul {
+    position: absolute;
+    left: 800px;
+    top:0px;
     display: flex;
 flex-direction: row;
-align-items: center;
-padding: 5px;
+align-items: center; 
+margin: 10px 35px;
 }
-.navbar ul .nav-item a{
+.navbar ul .nav-item a .btn{
+border-radius: 33px;
+}
+.content{
     position: absolute;
-left: 825px;
+    top: 178px;
+
+    font-family: 'Poppins', sans-serif;
+}
+.content.left{
+    width:50%;
+}
+.content .left h4{
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #FD511A;
+}
+.content .left h1{
+    font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 70px;
+color: #000000;
+
+
 }
